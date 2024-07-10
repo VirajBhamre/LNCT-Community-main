@@ -1,0 +1,34 @@
+body{
+    background-color: #383A56;
+    color: #fff;
+}
+.icons-lg{
+    font-size: 50px;
+    color: teal;
+}
+.icons-sm{
+    font-size: 25px;
+    color: teal;
+}
+.member-social{
+    font-size: 30px;
+}
+.footer-links{
+    font-size: 30px;
+}
+.team-members{
+    border-radius: 20px;
+}
+.team-members-images{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.write-us{
+    border-radius: 20px;
+}
+.card{
+    border: none;
+}
+.card-subtitle{
+    margin-bottom: 10px;
+}

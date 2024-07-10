@@ -1,0 +1,44 @@
+#mainbody{
+    justify-content: center;
+}
+.loginregister{
+    border-radius: 20px;
+}
+
+#eventimages{
+    background-color: #383A56;
+    
+}
+#navbar{
+    background-color: #F4EEE0;
+}
+.card{
+    border-radius: 20px;
+    border: none;
+    background-color:#fff;
+    
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.dropdown-menu{
+    background-color: #EEEEEE;
+}
+.nav-link:hover{
+    
+    padding-top: 3px;
+    text-decoration: underline black 5px;
+}
+.btn{
+    border-radius: 20px;
+}
+#searchbtn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#maineventsimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 7vw;
+}

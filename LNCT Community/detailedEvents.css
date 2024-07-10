@@ -1,0 +1,21 @@
+#event{
+    background-color: #383A56;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.umightlike{
+    background-color: #383A56;
+    color: #fff;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.btn{
+    border-radius: 20px;
+}

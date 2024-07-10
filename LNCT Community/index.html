@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNCT Community</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+        <nav id="navbar-background" class="navbar navbar-expand-lg border-bottom  bg-body-tertiary py-3 sticky-top">
+          <div class="container">
+            <a class="navbar-brand " href="#">LNCT Community</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Admissions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Events</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Colleges</a></li>
+                    <li><a class="dropdown-item" href="#">Prices</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="About us.html">About us</a></li>
+                  </ul>
+                </li>
+
+                <!-- login dropdown button -->
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown"data-bs-target="#login-dropdown">Login </a>
+                  <div id="login-dropdown" class="dropdown-menu p-3 bg-light px-4 text-center justify-content-center loginregister">
+                      <p class="display-6">Login</p>
+                      <center><input class="px-2 py-1 d-block mt-4" type="text" name="email" id="loginemail" placeholder="Email / Username"></center>
+                      <center><input class="px-2 py-1 d-block mt-4 mb-2" type="Password" name="password" id="loginpassword" placeholder="Password"></center>
+                      <input style="scale: 1.4;" class=" mt-3" type="checkbox" name="" id="">
+                      <p class="lead d-inline ms-1">Remember me</p>
+                      <center><button class="btn btn-outline-secondary d-block mt-4 mb-3">Login</button></center>
+                  </div>
+                </li>
+
+                <!-- signup dropdown button -->
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown"data-bs-target="#Signup-dropdown">Sign-up </a>
+                  <div id="Signup-dropdown" class="dropdown-menu py-3 px-4 bg-light loginregister">                    
+                      <div class="mx-4 mb-4 text-center justify-content-center ">
+                          <p class="display-6">Register</p>
+                          <input class="px-2 py-1 my-3" type="text" name="email" id="" placeholder="Email Address">
+                          <input class="px-2 py-1 my-3" type="text" name="" id="" placeholder="Create username">
+                          <input class="px-2 py-1 my-3" type="text" name="" id="" placeholder="Confirm username">
+                          <input class="px-2 py-1 my-3" type="password" name="" id="" placeholder="Create password">
+                          <input class="px-2 py-1 my-3" type="password" name="" id="" placeholder="Confirm password">
+                          <input class="px-2 py-1 my-3" type="text" name="" id="" placeholder="College enrollment">
+                          <input class="px-2 py-1 my-3" type="number" name="" id="" placeholder="Phone no.">
+                          <center><button class="btn btn-outline-secondary mt-4 d-block">Register</button></center>
+                      </div>
+                  </div>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input id="searchbar" class="form-control border-black me-2 rounded-pill px-4" type="search" placeholder="Search events" aria-label="Search">
+                <button id="searchbtn" class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      
+
+    <!-- Events -->
+
+      <section id="eventimages" class="py-5">
+        <div class="container">
+            <div id="header" class="text-center mb-4">
+                <img id="maineventsimg" src="Assets/Main Events.png" alt="">
+            </div>
+            <div class="row  justify-content-center mt-3">
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">120<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">150<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">150<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">80<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">120<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">500<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">60<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col col-lg-6 mt-3">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="Assets/31629-thumbnail-image.png" alt="">
+                        <div class="card-body p-4">
+                            <h4 class="card-title">Event Name</h4>
+                            <p class="card-subtitle mb-4">Event Organiser</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam labore dolorum maxime fugiat officiis est laborum, iure non aspernatur?</p>
+                            <a class=" text-muted" href="Detailed-event.html">Read more..</a>
+                            <p class="display-5 text-success mt-3">100<i class="bi bi-currency-rupee"></i></p>
+                            <a href="#" class="btn btn-outline-primary my-2">Register Now</a>
+                        </div>
+                    </div>
+                  </div>
+        </div>
+      </section>
+
+      
+
+    <!-- footer -->
+    </section >
+        <footer class="bg-black text-light pt-5">
+            <div class="container p-5 justify-content-center align-items-center">
+                <div class="row">
+                <div class="col col-lg-5">
+                    <img src="Assets/LNCT-Logo.png " at="" class=" my-5 me-5" style="height: 150px;">
+                </div>
+                <div class="col">
+                    <h4 class="display-4">Stories</h4>
+                    <ul class="mt-5">
+                    <li><a class="text-decoration-none text-white lead" href="">A day in my life</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">My first 90 days</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">Raise the bar</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">Starter Stories</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="display-4">Your Life</h4>
+                    <ul class=" mt-5">
+                    <li><a class="text-decoration-none text-white lead" href="">Mindset</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">Money</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">Productivity</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="">Wellbeing</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="display-4">About Us</h4>
+                    <ul class=" mt-5">
+                    <li><a class="text-decoration-none text-white lead" href="About us.html">Contact us</a></li>
+                    <li><a class="text-decoration-none text-white lead" href="About us.html">More about developing team</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </footer>
+      </section>
+
+      
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
